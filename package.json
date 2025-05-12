@@ -1,0 +1,20 @@
+{
+    "name": "yohaness/image-compressor",
+      "description": "Image compression library for Laravel",
+    "autoload": {
+        "psr-4": {
+            "ImageCompressor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ImageCompressor\\ImageCompressorServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0"
+    }
+}
