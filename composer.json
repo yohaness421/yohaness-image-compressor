@@ -1,6 +1,7 @@
 {
     "name": "yohaness/image-compressor",
-      "description": "Image compression library for Laravel",
+    "description": "Image compression library for Laravel",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "ImageCompressor\\": "src/"
