@@ -12,7 +12,7 @@ class ImageCompressorService
     public static function setKey(string $key)
     {
         self::$key = $key;
-        return static;
+        return new static();
     }
 
     public function compress(UploadedFile $file, array $options = []): string
